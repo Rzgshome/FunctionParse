@@ -60,7 +60,7 @@ namespace Com.Rzgshome.Common.Function
                 case ParseDataTypeEnum.Decimal:
                     return TypeEnum.Decimal;
 				default:
-					return TypeEnum.String;
+					return TypeEnum.Invalid;
 			}
 		}
 		
