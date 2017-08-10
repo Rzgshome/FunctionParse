@@ -60,7 +60,6 @@
     <Compile Include="Common\Function\FunctionParseOperatorMathAndJoin.cs" />
     <Compile Include="Common\Function\FunctionParseOperatorMinus.cs" />
     <Compile Include="Common\Function\FunctionParseResultBase.cs" />
-    <Compile Include="Common\Function\FunctionTest.cs" />
     <Compile Include="Common\Function\MethodInfo.cs" />
     <Compile Include="Common\Function\Method\MethodAbs.cs" />
     <Compile Include="Common\Function\Method\MethodIf.cs" />

@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Com.Rzgshome.Common.Function;
 
-namespace Com.Rzgshome.Common.Function
+namespace FunctionParseTest
 {
     public class FunctionTest
     {
