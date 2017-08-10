@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using Com.Rzgshome.Common.Function;
 
-namespace FunctionParseTest
+namespace FunctionParseTest.Test
 {
     public class FunctionTest
     {

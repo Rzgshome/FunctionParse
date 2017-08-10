@@ -1,0 +1,12 @@
+F:\HomeWork\CSharp\FunctionParse\FunctionParseTest\bin\Debug\FunctionParseTest.exe.config
+F:\HomeWork\CSharp\FunctionParse\FunctionParseTest\bin\Debug\FunctionParseTest.exe
+F:\HomeWork\CSharp\FunctionParse\FunctionParseTest\bin\Debug\FunctionParseTest.pdb
+F:\HomeWork\CSharp\FunctionParse\FunctionParseTest\bin\Debug\FunctionParse.dll
+F:\HomeWork\CSharp\FunctionParse\FunctionParseTest\bin\Debug\log4net.dll
+F:\HomeWork\CSharp\FunctionParse\FunctionParseTest\bin\Debug\FunctionParse.pdb
+F:\HomeWork\CSharp\FunctionParse\FunctionParseTest\obj\x86\Debug\FunctionParseTest.csprojResolveAssemblyReference.cache
+F:\HomeWork\CSharp\FunctionParse\FunctionParseTest\obj\x86\Debug\FunctionParseTest.Form1.resources
+F:\HomeWork\CSharp\FunctionParse\FunctionParseTest\obj\x86\Debug\FunctionParseTest.Properties.Resources.resources
+F:\HomeWork\CSharp\FunctionParse\FunctionParseTest\obj\x86\Debug\FunctionParseTest.csproj.GenerateResource.Cache
+F:\HomeWork\CSharp\FunctionParse\FunctionParseTest\obj\x86\Debug\FunctionParseTest.exe
+F:\HomeWork\CSharp\FunctionParse\FunctionParseTest\obj\x86\Debug\FunctionParseTest.pdb
