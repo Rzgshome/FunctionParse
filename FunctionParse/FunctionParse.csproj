@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5689CA8E-CC21-4A50-9EFE-F2206AC03F3C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Com.Rzgshome</RootNamespace>
+    <AssemblyName>FunctionParse</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\..\lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\Function\EnumFunction.cs" />
+    <Compile Include="Common\Function\FieldInfo.cs" />
+    <Compile Include="Common\Function\FunctionParseBase.cs" />
+    <Compile Include="Common\Function\FunctionParseData.cs" />
+    <Compile Include="Common\Function\FunctionParseDataInfo.cs" />
+    <Compile Include="Common\Function\FunctionParseDelegate.cs" />
+    <Compile Include="Common\Function\FunctionParseGroup.cs" />
+    <Compile Include="Common\Function\FunctionParseMain.cs" />
+    <Compile Include="Common\Function\FunctionParseMethod.cs" />
+    <Compile Include="Common\Function\FunctionParseOperator.cs" />
+    <Compile Include="Common\Function\FunctionParseOperatorCompareRelation.cs" />
+    <Compile Include="Common\Function\FunctionParseOperatorLogicRelation.cs" />
+    <Compile Include="Common\Function\FunctionParseOperatorMathAndJoin.cs" />
+    <Compile Include="Common\Function\FunctionParseOperatorMinus.cs" />
+    <Compile Include="Common\Function\FunctionParseResultBase.cs" />
+    <Compile Include="Common\Function\FunctionTest.cs" />
+    <Compile Include="Common\Function\MethodInfo.cs" />
+    <Compile Include="Common\Function\Method\MethodAbs.cs" />
+    <Compile Include="Common\Function\Method\MethodIf.cs" />
+    <Compile Include="Common\Function\Method\MethodIsNotNull.cs" />
+    <Compile Include="Common\Function\Method\MethodIsNull.cs" />
+    <Compile Include="Common\Function\Method\MethodMax.cs" />
+    <Compile Include="Common\Function\Method\MethodMin.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,5 @@
+F:\HomeWork\CSharp\FunctionParse\FunctionParse\bin\Release\log4net.dll
+F:\HomeWork\CSharp\FunctionParse\FunctionParse\bin\Release\FunctionParse.dll
+F:\HomeWork\CSharp\FunctionParse\FunctionParse\bin\Release\FunctionParse.pdb
+F:\HomeWork\CSharp\FunctionParse\FunctionParse\obj\Release\FunctionParse.dll
+F:\HomeWork\CSharp\FunctionParse\FunctionParse\obj\Release\FunctionParse.pdb
