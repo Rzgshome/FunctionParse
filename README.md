@@ -4,7 +4,9 @@ Compile the string into a function.And have the following characteristics.<br/>
 2, The properties can be dynamically added.<br/>
 3, The functions can be dynamically added.<br/>
 4, The keywords(properties, functions, and, or, not) are case-insensitive.<br/>
-5, The priority of operating characters<br/>
+5, Contains the following types.
+   String, Decimal, Boolean(property, function), Enum(property, function), Int(argument of function only)
+6, The priority of operating characters<br/>
    <table>
    <thead><tr><td>Priority</td><td>operater</td></tr></thead>
    <tbody>
@@ -17,7 +19,7 @@ Compile the string into a function.And have the following characteristics.<br/>
    <tr><td>7</td><td>NOT</td></tr>
    </tbody>
    </table>
-6,Implemented functions.<br>
+7,Implemented functions.<br>
    <table>
    <thead><tr><td>No.</td><td>function</td></tr></thead>
    <tbody>
